@@ -38,6 +38,7 @@ if (process.argv[2] === "3") {
   console.log("Start Promise");
 
   const dataPromise = fsPromises.readFile("./test.txt");
+  console.log("Lesen im Hintergrund gestartet");
   const fileContent = await dataPromise;
   console.log("Daten mit Promise gelesen: ");
   console.log(fileContent.toString());

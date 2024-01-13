@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MPL-2.0
+// SPDX-FileCopyrightText: 2024 Lukas Panni
 import { createServer } from "http";
 
 createServer((request, response) => {
