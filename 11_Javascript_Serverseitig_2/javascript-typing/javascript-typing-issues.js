@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: MPL-2.0
 // SPDX-FileCopyrightText: 2024 Lukas Panni
+const var1 = ["a", "b", "c"];
+const var2 = { a: 1 };
 
 function dynamicVariableTypes() {
   let a = 1;
@@ -30,6 +32,7 @@ function functionArguments() {
   console.log(add("1", "2"));
   console.log(add(undefined, 2));
   console.log(add(null, 2));
+  console.log(var1 + var2);
 }
 
 console.log("Dynamic Variable Types examples");

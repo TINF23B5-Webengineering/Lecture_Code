@@ -4,7 +4,8 @@
       "bun-types"
     ],
     "lib": [
-      "esnext"
+      "esnext",
+      "dom"
     ],
     "module": "esnext",
     "target": "esnext",
